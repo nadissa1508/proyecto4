@@ -27,7 +27,21 @@
     margin-top: 30px;
 }
 /*------------- Caracteristycs ------------*/
-
+#Caracteristycs{
+    display: flex;
+    padding: 50px;
+    background-color:rgba(236,234,227,1);
+}
+.C_element{
+    padding: 30px;
+}
+.C_element img{
+    width: 80px;
+}
+.C_element p{
+    font-size: 20px;
+    padding: 0 10px
+}
 /*------------- About ------------*/
 
 /* ------------ Menu ------------ */
