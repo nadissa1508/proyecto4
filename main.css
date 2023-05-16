@@ -3,7 +3,39 @@
 /* ----------Header---------- */
 
 /*----------- Botones ------- */
-
+.Button {
+    display: inline-block;
+    background-color: white;
+    color: rgba(51,26,21,1);
+    font-size: 27px;
+    font-weight: 600;
+    height: 45px;
+    width: 150px;
+    padding-top: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.5s;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+.Button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+}
+.Button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+}
+.Button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
 /*----------- Banner -------- */
 #Banner{
     background-color: rgba(51,26,21,1);
@@ -43,7 +75,48 @@
     padding: 0 10px
 }
 /*------------- About ------------*/
-
+#About{
+    padding: 60px;
+    display: flex;
+    gap: 20px;
+}
+.aboutText{
+    width: 50%;
+}
+.aboutText h1{
+    margin: 0;
+}
+.aboutText p{
+    font-size: 25px;
+}
+.aboutIconBox{
+    display: flex;
+    gap: 20px;
+}
+.aboutIconBox img{
+    padding-top: 10px;
+    width: 60px;
+    height: 60px;
+}
+.aboutIMG{
+    width: 50%;
+    display: flex;
+}
+.aboutImg1{
+    margin: 200px -100px 0 0;
+    z-index: 10;
+    border: none;
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+}
+.aboutImg2{
+    margin: 0 0 100px 0;
+    border: none;
+    border-radius: 30px;
+    height: 400px;
+    width: 400px;
+}
 /* ------------ Menu ------------ */
 #Menu
     {
@@ -72,5 +145,47 @@
     font-size: 20px;
 }
 /* ------------Contact----------- */
+footer  {
+    background-color: rgba(51,26,21,1);
+}
+#Contact {
+    background-color: rgba(51,26,21,1);
+    display: flex;
+    color: white;
+    padding: 60px;
+    gap: 30px;
+}
+.footerText{
+    width: 33.33%;
+}
+.socialIcons{
 
+}
+.socialIcons img{
+    width: 40px;
+    margin: 0 5px;
+}
+.footerInfo{
+    width: 33.33%;
+}
+.contactIcon{
+    display: flex;
+    gap: 20px;
+}
+.contactIcon img{
+    width: 50px;
+    height: 50px;
+}
+.schedules{
+    width: 33.33%; 
+}
+.Time{
+
+}
+.contactText{
+
+}
+.Copyright{
+    text-align: center;
+}
 /*------------------- responsive --------------- */
