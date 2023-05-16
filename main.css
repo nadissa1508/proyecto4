@@ -1,7 +1,60 @@
 /* ---------General--------- */
-
+body{
+    font-family: 'Rancho', cursive;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.flexElement {
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+p {
+    font-size: 25px;
+    justify-content: center;
+    text-align: justify;
+    margin: 0 20px;
+}
+h1{
+    font-size: 45px;
+}
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 25px;
+}
 /* ----------Header---------- */
+header{
+    padding: 0;
+    margin: 50px;
+}
+#header {
+    display: flex;
+    width: auto;
+    background-color: #331a15;
+    margin: 0;
+    padding:  0;
+    justify-content: space-around;
+    padding: 20px;
+}
+.menu, .ContactButton, .Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.menuLink a {
+    color: white;
+    font-size: 25px;
+}
+.Logo img{
+    width: 80px;
+    align-items: center;
+}
 /*----------- Botones ------- */
 .Button {
     display: inline-block;
@@ -189,3 +242,17 @@ footer  {
     text-align: center;
 }
 /*------------------- responsive --------------- */
+@media only screen and (max-width: 767px) {
+
+    /* ----------Header---------- */
+    #header {
+        
+    }
+    .menu{
+        
+    }
+    
+    }
+    @media only screen and (max-width: 1024px) and (min-width: 767px) {
+        
+    }
