@@ -5,7 +5,27 @@
 /*----------- Botones ------- */
 
 /*----------- Banner -------- */
-
+#Banner{
+    background-color: rgba(51,26,21,1);
+    background-image: url('./assets/img/banner.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+}
+.bannerSpace{
+    background-color: transparent;
+    width: 100%;
+}
+.bannerText{
+    color: white;
+    font-size: 60px;
+    padding-top: 100px;
+}
+.bannerText > .flexElement > a{
+    margin-top: 30px;
+}
 /*------------- Caracteristycs ------------*/
 
 /*------------- About ------------*/
