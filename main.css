@@ -11,7 +11,32 @@
 /*------------- About ------------*/
 
 /* ------------ Menu ------------ */
-
+#Menu
+    {
+    padding: 60px;
+    background-color:rgba(236,234,227,1);
+}
+.menuGrid{
+    display: flex;
+}
+.menuSoon{
+    flex-basis: 0;
+    flex-grow: 1;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    border: none;
+    border-radius: 30px;
+    padding-top: 40px;
+}
+.menuSoon img{
+    border-radius: 30px;
+    height: 300px;
+    width: 350px;
+}
+.menuSoon p{
+    font-size: 20px;
+}
 /* ------------Contact----------- */
 
 /*------------------- responsive --------------- */
